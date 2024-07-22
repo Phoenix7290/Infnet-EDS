@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .cabecalho {
+    background-color: red;
+  }
+  
+  .cor1 {
+    background-color: yellow;
+  }
+  
+  .cor2 {
+    background-color: orange;
+  }
+  
+  .center {
+    text-align: center;  
+  }
+  
+  #text1 {
+    font-weight: bold;
+  }
+  
+  #text2 {
+    font-weight: bold;
+  }
+  
+  #text3 {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #text4 {
+    font-weight: bold;
+  }
+  
+  #text5 {
+    text-align: center;
+  }
+  
+  #text6 {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  table {
+    border: 1.5px solid gray;
+    height: 200px;
+  }
+  
+  td {
+    border: 1.5px solid gray;
+  }
+  

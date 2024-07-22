@@ -1,0 +1,85 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .tr1 {
+    background-color: #cccccc;
+  }
+  
+  .tr2 {
+    background-color: #cccccc;
+    height: 25%;
+  }
+  
+  .cabecalho {
+    color: white;
+    background-color: #869a61;
+    border: 2px solid black;
+    text-align: left;
+    height: 15%;
+  }
+  
+  .item {
+    padding-left: 10px;
+  }
+  
+  .quantidade {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .preco {
+    background-color: #eeeeee;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .preco2 {
+    background-color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .th1 {
+    padding-left: 10px;
+  }
+  
+  .th2 {
+    width: 75px;
+    text-align: center;
+  }
+  
+  .precoTotal {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 15px;
+  }
+  
+  /* .superior {
+    text-align: center;
+    vertical-align: top;  
+  } */
+  
+  table {
+    border-collapse: collapse;
+    width: 420px;
+    height: 300px;
+    border: 2px solid black;
+  }
+  
+  td {
+    border: 2px solid black; 
+  }
+  
+  th {
+    border: 2px solid black;
+  }
+  
+  tfoot {
+    height: 43.41px;
+  }
