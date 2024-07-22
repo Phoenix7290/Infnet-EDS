@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="post">
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome" required minlength="3" maxlength="12">
+    <label for="apelido">Apelido:</label>
+    <input type="text" name="apelido" id="apelido" required minlength="5" maxlength="9">
+    <label for="viagem">Viagem:</label>
+    <select name="viagem" id="viagem" required>
+      <option value="">Selecione</option>
+      <option value="Praia">Praia</option>
+      <option value="Montanha">Montanha</option>
+      <option value="Cidade">Cidade</option>
+      <option value="Safari">Safari</option>
+    </select>
+    <label for="previsaoViagem"> Previsão de viagem:</label>
+    <select name="previsaoViagem" id="previsaoViagem" required>
+      <option value="">Selecione</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+      <option value="2026">2026</option>
+      <option value="2027">2027</option>
+      <option value="2028">2028</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  #card{text-align: center;
+        border: 2px dashed red;
+       }

@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .prox {
+    background-color: blue;
+  }
+  
+  section {
+    background-color: rgb(0, 255, 0);
+  }
+  
+  h2 {
+    color: blue
+  }
+  
+  h2 {
+    color: red
+  }
+  

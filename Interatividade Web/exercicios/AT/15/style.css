@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 50px;
+    height: 100vh;
+    background-color: #fefefe;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+  
+  h1 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form, label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #999999;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .task-lists {
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .task {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-lists h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .task-lists p {
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+  }
+  
+  .task-lists button.edit, .task-lists button.delete {
+    background-color: green;
+    color: white;
+    margin-left: 5px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .task-lists button.delete {
+    background-color: #ff1107;
+  }
+  
+  .task-lists button:hover {
+    opacity: 0.8;
+  }
+  
+  /* .task p{
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 20px;
+  } */

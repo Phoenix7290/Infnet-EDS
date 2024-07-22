@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Minha Lista de Tarefas</h1>
+
+    <form id="formTask">
+      <label for="title">Título da tarefa:</label>
+      <input type="text" id="title" placeholder="Escreva Aqui" required>
+      <label for="description">Descrição da Tarefa</label>
+      <textarea name="description" id="description" cols="30" rows="10" placeholder="Escreva Aqui" required></textarea>
+      <button type="submit">Criar tarefa</button>
+    </form>
+  
+    <div id="taskList" class="task-lists">
+      <!-- Tarefas serão adicionadas aqui -->
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

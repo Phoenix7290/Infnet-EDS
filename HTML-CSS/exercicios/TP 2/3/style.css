@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .capitulo{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .lista{
+    list-style: none;
+    color: steelblue;
+    font-size: 20px;
+  }
+  
+  .linha{
+    line-height: 0px;
+  }

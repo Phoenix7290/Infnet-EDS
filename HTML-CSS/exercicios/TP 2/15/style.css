@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    display: inline-block;
+    width: 300px;
+    align-items: center;
+    border: 2px solid red;
+    padding: 0px;
+    border-radius: 10px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  .titulo {
+    text-align: center;
+  }
+  
+  .sublinhado {
+    text-decoration: underline;
+  }
+  
+  .negrito {
+    font-weight: bold;
+  }
+  
+  .cordool{
+    color: green;
+  }

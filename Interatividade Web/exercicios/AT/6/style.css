@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .elemento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightsteelblue;
+    border: 5px solid steelblue;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .styleClassList-modified {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 5px solid purple;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .styleClassName-modified {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    border: 5px solid green;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .styleSetAttribute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+    border: 5px solid black;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  

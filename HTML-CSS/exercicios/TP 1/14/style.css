@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  div {
+    width: 300px;
+    border: 1px solid;
+    font-family: Verdana, sans-serif; 
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    color: purple;
+  }
