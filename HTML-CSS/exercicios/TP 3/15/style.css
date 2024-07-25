@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 20px;
+  }
+  
+  .pai {
+    width: 400px;
+    height: 60px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  .item {
+    padding: 3px;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-inline-end: 20px;
+    margin: 4px;
+  }
