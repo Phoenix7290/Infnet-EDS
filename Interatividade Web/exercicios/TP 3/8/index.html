@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="post">
+    <label for="pais">País:</label>
+    <input type="text" name="pais" required>
+    <label for="corPrincipal">Cor principal da bandeira:</label>
+    <input type="color" name="corPrincipal" required>
+    <label for="descricao">Descrição do país:</label>
+    <textarea name="descricao" id="descricao" cols="30" rows="10" required></textarea>
+    <label for="opcoes">Continente:</label>
+    <select name="opcoes" id="opcoes" required>
+      <option value="América">América</option>
+      <option value="África">África</option>
+      <option value="Europa">Europa</option>
+      <option value="Ásia">Ásia</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

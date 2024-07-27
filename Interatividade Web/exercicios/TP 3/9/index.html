@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  
+  <form action="post">
+    <label for="name">Nome:</label>
+    <input type="text" name="name" required>
+    <label for="nivel">Nível:</label>
+    <select name="nivel" id="nivel" required>
+      <option value="senior">Senior</option>
+      <option value="pleno">Pleno</option>
+      <option value="junior">Júnior</option>
+    </select>
+    <fieldset>
+      <legend>Possibilidade de horário:</legend>
+      <input type="checkbox" name="horario" value="presencial">
+      <label for="horario">Presencial</label>
+      <input type="checkbox" name="horario" value="hibrido">
+      <label for="horario">Híbrido</label>
+      <input type="checkbox" name="horario" value="remoto">
+      <label for="horario">Remoto</label>
+    </fieldset>
+
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

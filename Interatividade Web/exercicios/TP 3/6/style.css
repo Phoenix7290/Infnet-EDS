@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #card {
+    border: 3px dotted grren;
+    width: 200px;
+    height: 200px;
+  }
