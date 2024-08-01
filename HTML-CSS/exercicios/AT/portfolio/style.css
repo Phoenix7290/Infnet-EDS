@@ -1,119 +1,366 @@
-<!DOCTYPE html>
+:root{
+  --title: 4rem;
+  --text: 1.5vw;
+  --margin-div: 10%;
+  --margin-in-div: 5%;
+  --border-img: 3px solid black;
+}
 
-<html lang="pt-br">
+@font-face {
+  font-family: "spartan";
+  src: url(league-spartan/LeagueSpartan-Bold.otf) format(opentype);
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MarcosRyan</title>
-  <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "spartan", sans-serif;
+}
 
-<body>
+html {
+  /* background-color: #27282e;*/
+  background-color:  #F0F5FA;
+  scroll-behavior: smooth;
+}
 
-  <div class="total">
-    <div class="background">
-      <header>
-        <nav class="navigation">
-          <ul class="top-nav">
-            <li class="dropdown">Navigation
-              <ul class="submenu">
-                <!-- Vou consertar os titles para ficar bonito. Mas não tem valor de correção. -->
-                <li><a href="index.html" title="voltar para home">Home</a></li>
-                <li><a href="#sobre" title="ir para sobre">Sobre</a></li>
-                <li><a href="#projetos" title="ir para projetos">Projetos</a></li>
-                <li><a href="#conhecimentos" title="ir para conhecimentos"">Conhecimentos</a></li>
-                <li><a href="#formacao" title="ir para formação">Formação</a></li>
-              </ul>
-            </li>
-            <li>Social
-              <ul class="submenu2">
-                <li><a href="https://www.linkedin.com/in/marcos-ryan-274266268/" target="_blank"
-                    rel="noopener" title="ir para LinkedIn">LinkedIn</a></li>
-                <li><a href="https://github.com/Phoenix7290" target="_blank" rel="noopener" title="ir para Github">GitHub</a></li>
-                <li><a href="https://twitter.com/phoenix7290" target="_blank" rel="noopener" title="ir para X-Twitter">X-Twitter</a></li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-        <div class="intro">
-          <h1>Olá, Sou <span>Marcos Ryan</span></h1>
-          <p>Engenheiro de Software, Entusiasta pela Programação.</p>
-        </div>
-        <video autoplay loop muted>
-          <source src="video/stellar.mp4" type="video/mp4" title="video about universe">
-        </video>
-    </header>
-    <main>
-      <div class="sobre" id="sobre">
-        <h2>Sobre</h2>
-        <div class="caracteristica">
-          <img src="images/virtualline.jpg" alt="fluxos de codigo em forma de maré" title="Code Flow">
-          <p>Estudante de Engenharia de Software esforçado no primeiro ano de graduação. Encontrei minha paixão na
-            Programação e na Resolução de problemas reais. Gosto de aprimorar meus conhecimentos, além de ser flexível e
-            adaptável à novos projetos. Atualmente, sou universitário pela INFNET onde estou aprimorando vastamente meus
-            conhecimentos. </p>
-        </div>
-      </div>
-      <hr>
-      <div class="projetos" id="projetos">
-        <h2>Projetos</h2>
-        <p>Realizei 2 projetos em conjunto que estão disponíveis no Github para cunho acadêmico e do sever. Um de música
-          e outro de IA a partir da API do Chat GPT, ambos com a linguagem JavaScript com NodeJS.</p>
-        <div class="bots">
-          <a href="https://github.com/ArwenRomero/Discord-Bot-Music-INFNET" target="_blank" rel="noopener"><img
-              src="images/music.png" alt="Bot de Música" title="Bot de Música"></a>
-          <a href="https://github.com/Phoenix7290/Bot-Discord_IA-INFNET" target="_blank" rel="noopener"><img
-              src="images/chstgpt.png" alt="Bot de IA" title="Bot de IA"></a>
-        </div>
-      </div>
-      <hr>
-      <div class="conhecimentos" id="conhecimentos">
-        <h2>Conhecimentos</h2>
-        <div class="linguagens">
-          <img class="html" src="images/html.svg" alt="HTML" title="HTML">
-          <img src="images/css.svg" alt="CSS" title="CSS">
-          <img src="images/js.svg" alt="JavaScript" title="JavaScript">
-          <img src="images/nodejs.svg" alt="nodeJS" title="nodeJS">
-          <img src="images/python.svg" alt="Python" title="Python">
-        </div>
-      </div>
-      <hr>
-      <div class="formacao" id="formacao">
-        <h2>Formação</h2>
-        <div class="locais">
-          <a href="https://www.infnet.edu.br/infnet/home/" target="_blank" rel="noopener"><img src="images/infnet.png"
-              alt="Instituto INFNET" title="Instituto INFNET"></a>
-          <p>Bacharelado em Engenharia de Software. 2024-Atual.</p>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <p class="autor">Marcos Ryan</p>
-      <div class="rodape">
-        <div class="direitos">
-          Social:
-          <div class="media">
-            <p></p>
-            <a href="https://www.linkedin.com/in/marcos-ryan-274266268/" target="_blank" rel="noopener"><img
-                src="images/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
-            <a href="https://github.com/Phoenix7290" target="_blank" rel="noopener"><img src="images/github.svg"
-                alt="Github" title="GitHub"></a>
-            <a href="https://twitter.com/phoenix7290" target="_blank" rel="noopener"><img src="images/x-twitter.svg"
-                alt="X-Twitter" title="X-Twitter"></a>
-          </div>
-        </div>
-        <div class="direitos-terceiros">
-          <h3>Direitos Autorais das logos seguem abaixo:</h3>
-          <p>All icons, except infnet and bots logo, created by<a href="https://icons8.com/" target="_blank"
-              rel="noopener"> icons8</a></p>
-        </div>
-      </div>
-      <p>© 2024 copyright all right reserved</p>
-    </footer>
-  </div>
-  <script src="script.js"></script>
-  </div>
-</body>
+body {
+  line-height: 1.5;
+  /* min-height: 100vh; */
+  color: #fefefe;
+}
 
-</html>
+/* .total {
+
+} */
+
+.background {
+  position: relative;
+}
+
+video {
+  top:0;
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  z-index: -1;
+  object-fit: cover;
+}
+
+header {
+  padding: 3rem 0rem 3rem 0rem;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #e5e7eb;
+  border-radius: 50px;
+  padding: 0.5%;
+  width: 40vw;
+  margin: 1vh auto;
+  z-index: 1;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10rem;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navigation li {
+  flex-grow: 1;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navigation ul :hover {
+  color: royalblue;
+}
+
+.navigation ul li:hover ul.submenu {
+  display: block;
+}
+
+.navigation ul ul.submenu {
+  width: 12rem;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+.navigation ul ul.submenu li {
+  background: black;
+  border: 2px solid #e5e7eb;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.navigation ul ul.submenu li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation ul li:hover > ul.submenu {
+  display: block;
+}
+
+.navigation ul li:hover ul.submenu2 {
+  display: block;
+}
+
+.navigation ul ul.submenu2 {
+  width: 12rem;
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+.navigation ul ul.submenu2 li {
+  background: black;
+  border: 2px solid #e5e7eb;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.navigation ul ul.submenu2 li a {
+   text-decoration: none;
+   color: white;
+}
+
+.navigation ul li:hover > ul.submenu2 {
+  display: block;
+}
+
+/* .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.logo p {
+  display: flex;
+  font-weight: 700;
+  flex-flow: column nowrap;
+}
+
+.logo p em {
+  font-size: 12px;
+  color: lightslategray;
+} */
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  height: 70vh;
+  font-size: 2vw;
+  z-index: 1;
+}
+
+.intro span {
+  color: rgb(255, 50, 50);
+}
+
+main {
+  padding: 12rem;
+  color: black;
+}
+
+.sobre {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--margin-div);
+}
+
+.sobre h2 {
+  margin-bottom: var(--margin-in-div);
+  font-size: var(--title);
+}
+
+.caracteristica {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 25%;
+}
+
+.caracteristica img {
+  width: 25%;
+  border: var(--border-img);
+  border-radius: 50%;
+}
+
+.caracteristica p {
+  font-size: var(--text);
+  letter-spacing: 0.2px;
+}
+
+.projetos {
+  margin-top: var(--margin-div);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--margin-div);
+}
+
+.projetos h2 {
+  margin-bottom: var(--margin-in-div);
+  font-size: var(--title);
+}
+
+.projetos p {
+  font-size: var(--text);
+  margin-bottom: var(--margin-in-div);
+}
+
+.bots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20%;
+}
+
+.bots a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bots a img{
+  margin-top: var(--margin-in-div);
+  width: 100%;
+  border-radius: 50%;
+  border: var(--border-img);
+}
+
+.conhecimentos {
+  margin-top: var(--margin-div);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--margin-div);
+}
+
+.conhecimentos h2{
+  margin-bottom: var(--margin-in-div);
+  font-size: var(--title);
+}
+
+.linguagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap: 10%;
+}
+
+.linguagens img {
+  margin-top: var(--margin-in-div);
+  width: 10vw;
+}
+
+.formacao {
+  margin-top: var(--margin-div);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--margin-in-div);
+}
+
+.formacao h2 {
+  margin-bottom: var(--margin-in-div);
+  font-size: var(--title);
+}
+
+.locais {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.locais a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.locais img {
+  margin-top: var(--margin-in-div);
+  width: 50%;
+  border-radius: 50%;
+  border: var(--border-img);
+}
+
+.locais p {
+  font-size: var(--text);
+  margin-top: var(--margin-in-div);
+}
+
+footer {
+  background-color: hsl(216deg 30.57% 10.97%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  height: 50vh;
+}
+
+.autor {
+  font-size: var(--title);  
+}
+
+.rodape {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row nowrap;
+  margin: 3.5% 0;
+}
+
+.media {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2.5% 0;
+}
+
+.media img{
+  width: 3.5vw;
+}
+
+.direitos-terceiros p a {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Perfeito */
+/* Valeu Cidcley*/

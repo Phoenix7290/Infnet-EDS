@@ -1,4 +1,5 @@
-Assessment
+# Assessment
+
 Enunciado
 Chegamos ao final da disciplina! Ao longo dessas etapas, você adquiriu várias competências, e a seguir vamos avaliar tudo o que você aprendeu por meio do Assessment.
 
@@ -24,9 +25,9 @@ Utilizou corretamente os headings (h1 somente uma vez no site e h2 para as seç�
 
 Abriu e fechou corretamente as tags básicas de estrutura do HTML5, e não fez o uso de atributos de aparência no HTML (CSS inline ou os atributos width/height)?
 
-O documento CSS valida corretamente no W3C sem erros que comprometam a acessibilidade e o layout https://jigsaw.w3.org/css-validator/#validate_by_input?
+O documento CSS valida corretamente no W3C sem erros que comprometam a acessibilidade e o layout <https://jigsaw.w3.org/css-validator/#validate_by_input>?
 
-O documento HTML valida corretamente no W3C, sem erros que podem comprometer a acessibilidade e layout do website http://validator.w3.org/#validate_by_input?
+O documento HTML valida corretamente no W3C, sem erros que podem comprometer a acessibilidade e layout do website <http://validator.w3.org/#validate_by_input>?
 
 Utilizou corretamente as tags semânticas
 
