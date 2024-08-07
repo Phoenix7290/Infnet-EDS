@@ -1,0 +1,11 @@
+# Ignore everything
+*
+
+!.gitignore
+
+# Don't ignore directories, so we can recurse into them
+!*/
+
+# Don't ignore Markdown files
+!*.md
+
