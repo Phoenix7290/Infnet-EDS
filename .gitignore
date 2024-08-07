@@ -1,11 +1,11 @@
-# Ignore everything
-*
+# Ignorar todos os arquivos HTML
+*.html
 
-!.gitignore
+# Ignorar todos os arquivos CSS
+*.css
 
-# Don't ignore directories, so we can recurse into them
-!*/
+# Ignorar todos os arquivos JS
+*.js
 
-# Don't ignore Markdown files
+# Não ignorar arquivos MD
 !*.md
-
