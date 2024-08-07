@@ -1,1 +1,0 @@
-alert('"A única coisa necessária \n para o triunfo do mal \n é que os homens bons não façam nada." \n (Edmund Burke)');

@@ -1,11 +1,11 @@
 # Ignorar todos os arquivos HTML em qualquer subdiretório
-****/*.html
+**/*.html
 
 # Ignorar todos os arquivos CSS em qualquer subdiretório
-****/*.css
+**/*.css
 
 # Ignorar todos os arquivos JS em qualquer subdiretório
-****/*.js
+**/*.js
 
 # Não ignorar arquivos MD
-!****/*.md
+!**/*.md
