@@ -1,4 +1,5 @@
-TP Ouro 2.2 - O primeiro site da Amazon.com
+# TP Ouro 2.2 - O primeiro site da Amazon.com
+
 [alt text](tp2.png)
 
 A Amazon.com foi fundada em 1994 como um site de venda de livros ("a maior coleção de livros do mundo"). Era sensacional poder pesquisar seu catálogo enorme e poder comprar livros que dificilmente se encontraria numa livraria física, ainda mais aqui no Brasil (e os livros chegavam na sua casa pelos Correios, e sem tributos de importação!).
