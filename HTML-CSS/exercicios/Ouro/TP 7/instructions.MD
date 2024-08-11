@@ -1,4 +1,5 @@
-TP Ouro 3.2 - O primeiro site de empresa do Brasil
+# TP Ouro 3.2 - O primeiro site de empresa do Brasil
+
 alt text
 
 O primeiro site de uma empresa brasileira foi o da CEMIG - Companhia Energética de Minas Gerais, em 1996.
