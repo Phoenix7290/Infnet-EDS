@@ -1,6 +1,7 @@
 # Assessment
 
-Enunciado
+## Enunciado
+
 Chegamos ao final da disciplina! Ao longo dessas etapas, você adquiriu várias competências, e a seguir vamos avaliar tudo o que você aprendeu por meio do Assessment.
 
 Antes de começar essa avaliação, faça uma revisão de todos os conceitos e esteja bem afiado para realizar uma boa avaliação. As questões que serão exigidas estão no final deste arquivo.
@@ -8,17 +9,25 @@ Antes de começar essa avaliação, faça uma revisão de todos os conceitos e e
 Boa sorte!!
 
 Minha apresentação pessoal
+
 Objetivo: Crie um site para sua apresentação como pessoa desenvolvedora e que sirva como seu currículo/portifólio. Nele você deve exibir os seguintes itens:
 
 suas informações pessoais
+
 descrever suas características pessoais
+
 listar seu conhecimento
+
 ter uma seção onde possa acessar seus projetos (fictícios ou não)
+
 ter um histórico acadêmico e profissional.
-Observações:
+
+## Observações
+
 Todo o site deve estar em um único arquivo html. Você deve utilizar todas as boas práticas aprendidas até o momento. O site deve possuir cabeçalho e rodapé. Leia com atenção as rubricas para que não esqueça de cumprir todas as etapas.
 
 Rubricas
+
 Definiu a estrutura básica em HTML 5 (com doctype correto), com codificação UTF-8, title da página correto e língua como português brasileiro?
 
 Utilizou corretamente os headings (h1 somente uma vez no site e h2 para as seções)?
