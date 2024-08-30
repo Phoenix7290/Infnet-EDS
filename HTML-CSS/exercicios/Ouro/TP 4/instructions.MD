@@ -8,6 +8,6 @@ Vários outros diretórios de websites foram criados em seguida neste início, a
 
 Neste exercício você deverá reconstruir a home-page desse website, mostrada na imagem acima, mas:
 
-sem precisar acrescentar as duas imagens que estão nos cantos superior esquerdo e direito, e
-com os links da coluna direita nas cores verde (cor-base), laranja (quando hovered, focado ou ativo) e cinza (quando já visitado).
+sem precisar acrescentar as duas imagens que estão nos cantos superior esquerdo e direito, e com os links da coluna direita nas cores verde (cor-base), laranja (quando hovered, focado ou ativo) e cinza (quando já visitado).
+
 Curiosidade: lá no início da Web os smartphones ainda não existiam, mas vale a pena experimentar acessar pelo seu celular essa página que você reconstruiu.

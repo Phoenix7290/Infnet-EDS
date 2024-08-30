@@ -1,6 +1,6 @@
 # TP Ouro 3.1 - O primeiro diretório de sites do Brasil
 
-alt text
+[alt text](tp6.png)
 
 O primeiro diretório de websites do Brasil foi o Cadê.
 
