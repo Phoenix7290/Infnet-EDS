@@ -1,6 +1,6 @@
 # Teste de Performance 2 - Prata
 
-Exercício 2 - Prata - Criando um artigo completo
+## Exercício 2 - Prata - Criando um artigo completo
 
 Crie um elemento semântico que represente um artigo. Seu artigo deverá conter:
 

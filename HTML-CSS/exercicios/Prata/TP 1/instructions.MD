@@ -1,6 +1,6 @@
 # Teste de Performance 2 - Prata
 
-Exercício 1 - Prata - Criando navegação completa.
+## Exercício 1 - Prata - Criando navegação completa
 
 Crie um elemento de navegação semântico, contendo 5 itens clicáveis e com links funcionando. O conteúdo dos itens clicáveis são:
 
