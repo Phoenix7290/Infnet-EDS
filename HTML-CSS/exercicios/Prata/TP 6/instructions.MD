@@ -1,6 +1,6 @@
 # Teste de Performance 3 - Prata
 
-Exercício 3.1 - Prata - Trabalhando transparência em elementos
+## Exercício 3.1 - Prata - Trabalhando transparência em elementos
 
 Crie um elemento de seção contendo um título e um parágrafo, ambos com conteúdo. Este elemento deverá possuir:
 
