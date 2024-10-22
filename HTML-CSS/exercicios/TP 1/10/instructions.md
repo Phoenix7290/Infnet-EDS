@@ -1,6 +1,6 @@
 # Teste de Performance 1
 
-Exercício 10
+## Exercício 10
 
 ENUNCIADO:
 

@@ -1,6 +1,6 @@
 # Teste de Performance 1
 
-Exercício 12
+## Exercício 12
 
 CONTEXTO:
 
