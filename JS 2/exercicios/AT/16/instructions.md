@@ -1,4 +1,4 @@
-Questão 15: Controlando o seu chakra
+Questão 16: Controlando o seu chakra
 Utilize o arquivo script.js para solucionar essa questão.
 
 Você é um ninja e está treinando subir em árvores sem usar as mãos. Para tanto, você deve liberar uma fina camada de chakra na sola dos pés e correr pelo tronco da árvore até chegar na copa.
