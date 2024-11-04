@@ -8,4 +8,4 @@ Siga as etapas abaixo:
 
 Crie um link de conteúdo "E-mail"
 
-Ao clicar deve-se abrir o aplicativo de envio de e-mails com o endereço para envio sendo "atendimento@infnet.edu.br"
+Ao clicar deve-se abrir o aplicativo de envio de e-mails com o endereço para envio sendo [atendimento@infnet.edu.br](mailto:atendimento@infnet.edu.br)

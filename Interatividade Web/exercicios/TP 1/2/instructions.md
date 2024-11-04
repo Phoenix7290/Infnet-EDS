@@ -1,4 +1,5 @@
-Teste de Performance 1
+# Teste de Performance 1
+
 Exercício 02
 ENUNCIADO:
 No arquivo script.js:
