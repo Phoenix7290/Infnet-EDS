@@ -18,7 +18,7 @@ OBSERVAÇÕES:
 
 Para responder o exercício fica a seu critério, as seguintes opções:
 
-Dissertar (escrever) a resposta em uma tag <p>
+Dissertar (escrever) a resposta em uma tag `p`
 
 ou
 
