@@ -1,8 +1,25 @@
 {
+    "default": true,
     "MD041": false,
+    "MD033": false,
+    "MD013": false,
     "rules": {
         "MD041": {
-            "files": ["LICENSE"],
+            "files": [
+                "LICENSE"
+            ],
+            "value": false
+        },
+        "MD033": {
+            "files": [
+                "README.md"
+            ],
+            "value": false
+        },
+        "MD013": {
+            "files": [
+                "README.md"
+            ],
             "value": false
         }
     }
