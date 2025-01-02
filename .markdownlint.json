@@ -1,0 +1,9 @@
+{
+    "MD041": false,
+    "rules": {
+        "MD041": {
+            "files": ["LICENSE"],
+            "value": false
+        }
+    }
+}
