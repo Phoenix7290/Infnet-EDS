@@ -6,10 +6,10 @@
     <em>A Biblioteca de Questões do Instituto Infnet</em>
 </p>
 <p align="center">
-    <img src="https://img.shields.io/github/license/Phoenix7290/Infnet-EDS?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
-    <img src="https://img.shields.io/github/last-commit/Phoenix7290/Infnet-EDS?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-    <img src="https://img.shields.io/github/languages/top/Phoenix7290/Infnet-EDS?style=default&color=0080ff" alt="repo-top-language">
-    <img src="https://img.shields.io/github/languages/count/Phoenix7290/Infnet-EDS?style=default&color=0080ff" alt="repo-language-count">
+    <img src="https://img.shields.io/github/license/Phoenix7290/Infnet-Library?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+    <img src="https://img.shields.io/github/last-commit/Phoenix7290/Infnet-Library?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+    <img src="https://img.shields.io/github/languages/top/Phoenix7290/Infnet-Library?style=default&color=0080ff" alt="repo-top-language">
+    <img src="https://img.shields.io/github/languages/count/Phoenix7290/Infnet-Library?style=default&color=0080ff" alt="repo-language-count">
 </p>
 <br>
 
@@ -40,7 +40,7 @@ O repositório está organizado por matérias. Cada matéria possui:
 Dentro de cada diretório, você encontrará somente as questões para estudo e revisão.
 
 ```sh
-└── Infnet-EDS/
+└── Infnet-Library/
     ├── LICENSE
     ├── README.md
     ├── eslint.config.mjs
@@ -111,7 +111,7 @@ O projeto Infnet-Library é uma estrutura robusta de desenvolvimento web projeta
 Aceitamos contribuições de todos. Aqui estão algumas diretrizes para ajuda-lo a contribuir:
 
 1. **Faça um fork deste repositório**: Clique no botão “Fork” no canto superior direito.
-2. **Clone seu fork**: `git clone https://github.com/seu-usuario/infnet-eds.git`
+2. **Clone seu fork**: `git clone https://github.com/seu-usuario/infnet-library.git`
 3. **Crie um novo branch**: `git checkout -b nova-funcionalidade`
 4. **Faça suas alterações**: Adicione suas soluções ou novas questões.
 5. **Comite suas alterações**: `git commit -m "Adicionar nova funcionalidade"
